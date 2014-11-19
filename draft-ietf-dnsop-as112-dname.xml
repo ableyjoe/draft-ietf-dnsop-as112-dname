@@ -25,7 +25,7 @@
   <!ENTITY rfc6890 PUBLIC ""
     "http://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.6890.xml">
   <!ENTITY draft-ietf-dnsop-rfc6304bis PUBLIC ""
-    "http://xml2rfc.ietf.org/public/rfc/bibxml3/reference.I-D.ietf-dnsop-rfc63904bis.xml">
+    "http://xml2rfc.ietf.org/public/rfc/bibxml3/reference.I-D.ietf-dnsop-rfc6304bis.xml">
 ]>
 
 <rfc category="info" docName="draft-ietf-dnsop-as112-dname-05"
