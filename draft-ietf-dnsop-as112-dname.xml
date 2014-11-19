@@ -86,7 +86,7 @@
       </address>
     </author>
 
-    <date day="31" month="July" year="2014" />
+    <date day="19" month="November" year="2014" />
 
     <abstract>
       <t>AS112 provides a mechanism for handling reverse lookups on IP
@@ -94,13 +94,15 @@
       describes modifications to the deployment and use of AS112
       infrastructure that will allow zones to be added and dropped much more
       easily, using DNAME resource records.</t>
+
+      <t>This approach makes it possible for any DNS zone administrator
+      to sink traffic relating to parts of the global DNS namespace
+      under their control to the AS112 infrastructure without coordination.</t>
     </abstract>
   </front>
 
   <middle>
     <section title="Introduction">
-      <t></t>
-
       <t>Many sites connected to the Internet make use of IPv4 addresses that
       are not globally unique. Examples are the addresses designated in RFC
       1918 for private use within individual sites.</t>
@@ -158,6 +160,10 @@
       arbitrary parts of the namespace can be directed to AS112 servers
       without those servers having to be reconfigured every time a zone is
       added or removed.</t>
+
+      <t>This approach makes it possible for any DNS zone administrator
+      to sink traffic relating to parts of the global DNS namespace
+      under their control to the AS112 infrastructure without coordination.</t>
     </section>
 
     <section title="Design Overview">
