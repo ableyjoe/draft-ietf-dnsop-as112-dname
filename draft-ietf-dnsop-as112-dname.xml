@@ -8,6 +8,8 @@
     "http://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.1918.xml">
   <!ENTITY rfc2308 PUBLIC ""
     "http://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.2308.xml">
+  <!ENTITY rfc2860 PUBLIC ""
+    "http://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.2860.xml">
   <!ENTITY rfc2928 PUBLIC ""
     "http://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.2928.xml">
   <!ENTITY rfc3172 PUBLIC ""
@@ -567,6 +569,7 @@
 
     <references title="Informative References">
       &rfc1918;
+      &rfc2860;
       &rfc2928;
       &rfc3172;
       &rfc4033;
