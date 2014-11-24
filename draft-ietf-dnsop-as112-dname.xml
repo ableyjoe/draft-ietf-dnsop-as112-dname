@@ -740,13 +740,16 @@
 	    <t hangText="04">Corrected an error picked up by Bob
 	      Harold.</t>
 
-	    <t hangText="05 ">Addressed various comments from the
+	    <t hangText="05">Addressed various comments from the
 	      IESG and IAB. Updated Brian's contact info. Minor
               spelling and grammatical corrections. Added text
               to the abstract and introduction to reinforce the
               point that this approach allows liberal use of
               AS112 infrastructure without coordination with AS112
               operators.</t>
+
+            <t hangText="06">Made changes requested by the IAB
+              relating to <xref target="RFC3172"/>.</t>
 	  </list></t>
       </section>
     </section>
