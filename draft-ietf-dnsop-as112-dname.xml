@@ -30,7 +30,7 @@
     "http://xml2rfc.ietf.org/public/rfc/bibxml3/reference.I-D.ietf-dnsop-rfc6304bis.xml">
 ]>
 
-<rfc category="info" docName="draft-ietf-dnsop-as112-dname-05"
+<rfc category="info" docName="draft-ietf-dnsop-as112-dname-06"
      ipr="trust200902">
 
   <?rfc toc="yes" ?>
@@ -85,7 +85,7 @@
       </address>
     </author>
 
-    <date day="19" month="November" year="2014" />
+    <date day="24" month="November" year="2014" />
 
     <abstract>
       <t>AS112 provides a mechanism for handling reverse lookups
@@ -359,15 +359,13 @@
         under this proposal.</t>
     </section>
 
-    <section title="IAB Considerations">
-      <t>This document proposes a delegation within the ARPA domain,
-	and, in accordance with <xref target="RFC3172"></xref>, IAB
-	review and approval of the delegation of AS112.ARPA as
-	described in <xref target="iana"></xref> is required.</t>
-
-      <t>Once IAB approval has been obtained, this section may be
-	removed prior to publication or updated to include text
-	that confirms the IAB's decision, at the IAB's discretion.</t>
+    <section title="IAB Statement Regarding this .ARPA Request">
+      <t>With the publication of this document, the IAB approves
+	of the delegation of 'AS112' in the ARPA domain. Under <xref
+	target="RFC3172"/>, the IAB has requested that IANA delegate
+	and provision "AS112.ARPA" as specified in this specification.
+	However, the IAB does not take any architectural or technical
+	position about this specification.</t>
     </section>
 
     <section anchor="iana" title="IANA Considerations">
@@ -517,30 +515,9 @@
 	  the IANA is requested to arrange delegation from the ARPA
 	  zone according to normal IANA procedure for ARPA zone
 	  management, to the nameservers used in carrying out the
-	  direction in <xref target="hosting"></xref>. The following
-	  metadata is suggested for the delegation, but may be
-	  changed by the IANA if required:</t>
-
-        <texttable>
-          <ttcol>Name</ttcol>
-          <ttcol>Value</ttcol>
-
-          <c>Domain:</c>
-          <c>AS112.ARPA</c>
-
-          <c>Administrative Contact:</c>
-	  <c>Internet Architecture Board (IAB) c/o IETF Administrative
-	    Support Activity, ISOC</c>
-
-          <c>Technical Contact:</c>
-          <c>Internet Assigned Numbers Authority (IANA)</c>
-
-          <c>Nameservers:</c>
-          <c>As chosen by the IANA, see <xref target="hosting"></xref></c>
-
-          <c>DS-RDATA:</c>
-          <c>As chosen by the IANA, see <xref target="hosting"></xref></c>
-        </texttable>
+	  direction in <xref target="hosting"></xref>. The whois
+	  contact information for the new record should be specified
+	  by the IAB under <xref target="RFC3172"/>.</t>
       </section>
     </section>
 
