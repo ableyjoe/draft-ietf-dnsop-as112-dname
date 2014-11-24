@@ -801,11 +801,13 @@ Internet-Draft        AS112 Redirection using DNAME        November 2014
 
    04 Corrected an error picked up by Bob Harold.
 
-   05   Addressed various comments from the IESG and IAB.  Updated
-      Brian's contact info.  Minor spelling and grammatical corrections.
-      Added text to the abstract and introduction to reinforce the point
-      that this approach allows liberal use of AS112 infrastructure
-      without coordination with AS112 operators.
+   05 Addressed various comments from the IESG and IAB.  Updated Brian's
+      contact info.  Minor spelling and grammatical corrections.  Added
+      text to the abstract and introduction to reinforce the point that
+      this approach allows liberal use of AS112 infrastructure without
+      coordination with AS112 operators.
+
+   06 Made changes requested by the IAB relating to [RFC3172].
 
 Authors' Addresses
 
@@ -832,8 +834,6 @@ Authors' Addresses
    USA
 
    Email: warren@kumari.net
-
-
 
 
 
