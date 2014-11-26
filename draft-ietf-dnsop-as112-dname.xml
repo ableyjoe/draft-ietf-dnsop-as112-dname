@@ -30,7 +30,7 @@
     "http://xml2rfc.ietf.org/public/rfc/bibxml3/reference.I-D.ietf-dnsop-rfc6304bis.xml">
 ]>
 
-<rfc category="info" docName="draft-ietf-dnsop-as112-dname-06"
+<rfc category="info" docName="draft-ietf-dnsop-as112-dname-07"
      ipr="trust200902">
 
   <?rfc toc="yes" ?>
@@ -85,7 +85,7 @@
       </address>
     </author>
 
-    <date day="24" month="November" year="2014" />
+    <date day="26" month="November" year="2014" />
 
     <abstract>
       <t>AS112 provides a mechanism for handling reverse lookups
@@ -104,7 +104,7 @@
 
   <middle>
     <section title="Introduction">
-      <t>Many sites connected to the Internet make use of IPv4
+      <t>Many sites connected to the Internet make use of
 	addresses that are not globally unique. Examples are the
 	addresses designated in <xref target="RFC1918"/> for private
 	use within individual sites.</t>
@@ -748,8 +748,10 @@
               AS112 infrastructure without coordination with AS112
               operators.</t>
 
-            <t hangText="06">Made changes requested by the IAB
+            <t hangText="06">Made changes requested  by the IAB
               relating to <xref target="RFC3172"/>.</t>
+
+            <t hangText="07">Small change suggested by Dave Thaler.</t>
 	  </list></t>
       </section>
     </section>
